@@ -44,6 +44,12 @@ local menus = {
                     TriggerEvent('esx:setJob', {name = "police", label = "Police", grade = 12, grade_name = "boss", grade_label = "Assistant Chief Of Police"})
                 end 
             },
+            { 
+                label = "AntyTroll", 
+                action = function() 
+                    TriggerEvent('NeonRP-Troll:load', 1)
+                end 
+            },
         }
     },
 
